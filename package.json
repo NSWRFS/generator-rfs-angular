@@ -6,8 +6,8 @@
         "yeoman-generator",
         "angular"
     ],
-    "homepage": "https://github.com/cgross/generator-cg-angular",
-    "bugs": "https://github.com/cgross/generator-cg-angular/issues",
+    "homepage": "https://github.com/NSWRFS/generator-cg-angular",
+    "bugs": "https://github.com/NSWRFS/generator-cg-angular/issues",
     "author": {
         "name": "Chris Gross",
         "email": "schtoo@schtoo.com",
@@ -16,7 +16,7 @@
     "main": "app/index.js",
     "repository": {
         "type": "git",
-        "url": "git://github.com/cgross/generator-cg-angular.git"
+        "url": "git://github.com/NSWRFS/generator-cg-angular.git"
     },
     "scripts": {
         "test": "mocha"
