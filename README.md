@@ -65,7 +65,45 @@ In this example, the user has chosen to group the app into an `admin` folder, a 
 Getting Started
 -------------
 
-Prerequisites: Node, Grunt, Yeoman, and Bower.  Once Node is installed, do:
+Prerequisites: Node, Grunt, Yeoman, and Bower.  
+
+For the most part, this set-up is for windows users. Macs just work.
+
+> Clone the repo https://github.com/NSWRFS/generator-rfs-angular.git
+
+Set the project up into a folder like C:\code\< project Name >
+
+Open the terminal tab (making sure that you in the folder you installed the project) and then run the following command:
+
+> npm install
+
+**Windows users: If you receive an error 'npm' is not recognized as internal or external command, operable program or batch file. You will need to set your evironment variables to point to the folder. first, from the command prompt type which grunt**
+
+You'll see the output something like:
+
+C:\Users\my user id\AppData\Roaming\npm\grunt
+
+C:\Users\my user id\AppData\Roaming\npm\grunt.c
+md
+
+You'll need to set the environment variables for system & user to **C:\Users\my user id\AppData\Roaming\npm\**
+
+**Windows users: if you recieve any errors that are similar to the ones below, you're probably going to need access through the proxy. This is a support request and will need to be raised with the networks team.**
+
+npm ERR! Error: connect ECONNREFUSED or npm ERR! code ECONNRESET
+
+To run the project:
+
+> grunt build
+
+**Windows users: If you receive an error 'grunt' is not recognized as an internal or external command. You probably have not installed Grunt globally. You need to run **npm install -g grunt-cli** from the command line.
+
+You should now have a PROD folder present in your application. This essentially the deployment folder in your application. You can now navigate to the following folder http://localhost/< path to server >
+
+During development if you're wanting to have your changes visible instantly the following command will run a watch on the filesystem for changes. This task essentially runs a complete build everytime it's invoked.
+
+
+Once Node is installed, do:
 
     npm install -g grunt-cli yo bower
 
