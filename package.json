@@ -1,7 +1,7 @@
 {
     "name": "generator-rfs-angular",
     "version": "1.0",
-    "description": "Yeoman Generator for RFS Angular projects.",
+    "description": "Yeoman Generator for NSW RFS Angular projects.",
     "keywords": [
         "yeoman-generator",
         "angular"
@@ -9,8 +9,8 @@
     "homepage": "https://github.com/NSWRFS/generator-rfs-angular",
     "bugs": "https://github.com/NSWRFS/generator-rfs-angular/issues",
     "author": {
-        "name": "Orignal Author Chris Gross",
-        "email": "appsupport@rfs.nsw.gov.au",
+        "name": "NSW RFS via NSW Government, Australia (Forked from C.Gross)",
+        "email": "application.development@rfs.nsw.gov.au",
         "url": "https://github.com/NSWRFS"
     },
     "main": "app/index.js",
