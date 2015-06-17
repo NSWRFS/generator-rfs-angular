@@ -1,22 +1,22 @@
 {
-    "name": "generator-cg-angular",
-    "version": "3.2.0",
-    "description": "Yeoman Generator for Enterprise Angular projects.",
+    "name": "generator-rfs-angular",
+    "version": "1.0",
+    "description": "Yeoman Generator for RFS Angular projects.",
     "keywords": [
         "yeoman-generator",
         "angular"
     ],
-    "homepage": "https://github.com/NSWRFS/generator-cg-angular",
-    "bugs": "https://github.com/NSWRFS/generator-cg-angular/issues",
+    "homepage": "https://github.com/NSWRFS/generator-rfs-angular",
+    "bugs": "https://github.com/NSWRFS/generator-rfs-angular/issues",
     "author": {
-        "name": "Chris Gross",
-        "email": "schtoo@schtoo.com",
-        "url": "https://github.com/cgross"
+        "name": "Orignal Author Chris Gross",
+        "email": "appsupport@rfs.nsw.gov.au",
+        "url": "https://github.com/NSWRFS"
     },
     "main": "app/index.js",
     "repository": {
         "type": "git",
-        "url": "git://github.com/NSWRFS/generator-cg-angular.git"
+        "url": "git://github.com/NSWRFS/generator-rfs-angular.git"
     },
     "scripts": {
         "test": "mocha"
